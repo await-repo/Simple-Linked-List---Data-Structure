@@ -32,6 +32,18 @@ Ahora que agregamos el Nodo 4 (Verde) debemos saber que la **variable last** est
 
 ![SimpleLinkedList6](https://user-images.githubusercontent.com/115047831/214767485-c7143d19-aa8e-4c35-9637-d645080502c0.png)
 
+## Eliminar Nodo
+
+**Se elimina un Nodo por su valor númerico, se elimnarán todos los valores con este dígito.**
+
+En el siguiente ejemplo podemos observar que el Nodo 1 (Azul) se repite 5 veces en la lista, el objetivo es eliminar todos los nodos que coinciden con el número 5, independientemente de su posición en la lista deberán ser eliminados. El método **`delete`** se compone de tres partes, si identifica que el Nodo ha eliminar está al inicio de la lista  entonces ejecutará el método **`deleteFirst`** mientras que detecte que el valor sigue al inicio de la lista. Posteriormente buscará el nodo que esta al final de la lista, si coincide con el número a eliminar continuara eliminandolo ejecutando el método **`deleteLast`** hasta que no este al final de la lista. Finalmente buscará el valor númerico del nodo unicamente en el medio de la lista.
+
+![SimpleLinkedList7](https://user-images.githubusercontent.com/115047831/214769720-e9d21bfe-60a3-4619-b660-0c620d9bbc7f.png)
+
+En la siguiente imagen podemos observar que todos los Nodos 1 (Azul) han sido removidos de la lista.
+
+![SimpleLinkedList8](https://user-images.githubusercontent.com/115047831/214769768-95a31296-bdca-477c-92fc-f6581c04606a.png)
+
 ## Diagrama de clases con UML
 
 > **Nota:** El siguiente diagrama de clases representa la lógica de programación utilizada para construir la **Lista Ligada Simple**. La clase **test** no se incluye en el diagrama UML porque solo contiene el método main y únicamente es utilizada para demostrar el funcionamiento de los métodos de la lista.
