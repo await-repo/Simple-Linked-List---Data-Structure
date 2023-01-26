@@ -20,6 +20,17 @@ A continuación describimos las caracteristicas de una Lista Ligada Simple.
 
 ![Unique](https://user-images.githubusercontent.com/115047831/207787501-3af9c726-4cce-4120-8b49-2bac880bd026.png)
 
+## Agregar Nodo
+
+**Cuando agregamos un nuevo Nodo siempre se añadira al final de la Lista**
+
+Tenemos la siguiente lista con los siguientes nodos: Nodo 2 (Rojo) y Nodo 3 (Amarillo), si queremos agregar el Nodo 4 (Verde) entonces el apuntador del Nodo 3 (Amarillo) ahora debera apuntar al Nodo 4 (Verde).
+
+![SimpleLinkedList5](https://user-images.githubusercontent.com/115047831/214767401-f851156c-3cb0-4471-8bcb-e4a2eb8ba757.png)
+
+Ahora que agregamos el Nodo 4 (Verde) debemos saber que la **variable last** esta apuntando al Nodo 4 (Verde) ya que ahora es el último nodo de la lista.
+
+![SimpleLinkedList6](https://user-images.githubusercontent.com/115047831/214767485-c7143d19-aa8e-4c35-9637-d645080502c0.png)
 
 ## Diagrama de clases con UML
 
